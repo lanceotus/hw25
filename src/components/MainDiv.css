@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.footer {
+  background: linear-gradient(to right, #4348c4, #8d43a8);
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 10pt;
+  font-family: Verdana, Georgia, Times, serif;
+  font-weight: normal;
+  text-decoration-line: none;
+}

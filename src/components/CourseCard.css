@@ -1,0 +1,42 @@
+.course_card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 220px;
+    padding: 0;
+    margin: 20px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    color: #000000;
+}
+.course_card:hover {
+    background: #463474;
+    color: #FFFFFF;
+}
+
+.course_card__name {
+    text-align: left;
+    font-size: 20pt;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin: 20px 20px auto 30px;
+}
+
+.course_card__date_box {
+    padding: 0 10px 0;
+    margin: 0 0 35px 0;
+    font-size: 16pt;
+    font-family: Georgia, Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #4444cc, #8844aa);
+    width: fit-content;
+}
+
+.course_card__date_text {
+    font-size: 18pt;
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}

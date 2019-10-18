@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #4444cc, #8844aa);
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 100%;
+    float: left;
+    color: #FFFFFF;
+    font-size: 20pt;
+    font-family: Verdana, Georgia, Times, serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.menu__item {
+    padding: 25px 20px;
+    margin: 0;
+}
+
+.menu__text {
+    color: #FFFFFF;
+    font-size: 16pt;
+    font-family: Verdana, Georgia, Times, serif;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+
+.menu__item_group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal_spacer {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}

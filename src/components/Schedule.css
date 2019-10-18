@@ -1,0 +1,50 @@
+.schedule {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    flex-grow: 1;
+    background-color: #FFFFFF;
+    color: #000000;
+    min-width: 70%;
+}
+
+.schedule__title {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 20pt;
+    margin: 20px 20px 40px 20px;
+}
+
+.schedule__table {
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+.schedule__tr {
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+}
+
+.schedule__td {
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    margin: 0;
+}
+
+.schedule__th {
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    margin: 0;
+    background-color: #eeeeee;
+}
